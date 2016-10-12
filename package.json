@@ -28,7 +28,8 @@
   },
   "homepage": "https://www.mattermost.org/",
   "dependencies": {
-      "superagent": "1.8.3"
+      "superagent": "1.8.3",
+      "babel-loader": "6.2.4"
   },
   "devDependencies": {
     "babel-loader": "6.2.4",
