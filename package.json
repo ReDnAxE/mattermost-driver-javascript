@@ -4,13 +4,13 @@
   "description": "Javascript library for interacting with the Mattermost API",
   "main": "lib/client.js",
   "files": [
-      "client.jsx",
-      "websocket_client.jsx",
-      "README.md",
-      "Makefile",
-      "lib",
-      "lib/client.js",
-      "lib/client.js.map"
+    "client.jsx",
+    "websocket_client.jsx",
+    "README.md",
+    "Makefile",
+    "lib",
+    "lib/client.js",
+    "lib/client.js.map"
   ],
   "repository": {
     "type": "git",
@@ -21,32 +21,61 @@
     "webhook",
     "integration"
   ],
-  "author": "Mattermost",
+  "author": {
+    "name": "Mattermost"
+  },
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/mattermost/platform/issues"
   },
   "homepage": "https://www.mattermost.org/",
   "dependencies": {
-      "superagent": "1.8.3",
-      "babel-loader": "6.2.4"
+    "superagent": "1.8.3"
   },
   "devDependencies": {
     "babel-loader": "6.2.4",
+    "babel-core": "^6.0.0",
     "babel-plugin-transform-runtime": "6.8.0",
     "babel-polyfill": "6.8.0",
     "babel-preset-es2015-webpack": "6.4.1",
     "babel-preset-stage-0": "6.5.0",
     "mocha": "2.4.5",
     "mocha-jsdom": "1.1.0",
+    "jsdom": "*",
     "mocha-webpack": "0.3.0",
     "jquery-deferred": "0.3.0",
-    "webpack": "2.1.0-beta.7",
+    "webpack": "^1.12.13",
     "webpack-node-externals": "1.2.0"
   },
   "scripts": {
     "build": "webpack",
     "prepublish": "webpack",
     "test": "mocha-webpack --webpack-config webpack.config.js \"**/*.test.jsx\""
-  }
+  },
+  "gitHead": "054361e4dfe3283684b6df67411abd6af4b92568",
+  "_id": "mattermost@3.4.0",
+  "_shasum": "7e4958e1bc96c7da7bc5f179dd2c6ae5035a8857",
+  "_from": "mattermost@>=3.4.0 <4.0.0",
+  "_npmVersion": "3.10.5",
+  "_nodeVersion": "6.3.1",
+  "_npmUser": {
+    "name": "crspeller",
+    "email": "crspeller@gmail.com"
+  },
+  "dist": {
+    "shasum": "7e4958e1bc96c7da7bc5f179dd2c6ae5035a8857",
+    "tarball": "https://registry.npmjs.org/mattermost/-/mattermost-3.4.0.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "crspeller",
+      "email": "crspeller@gmail.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/mattermost-3.4.0.tgz_1473708013256_0.3569194874726236"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/mattermost/-/mattermost-3.4.0.tgz"
 }
